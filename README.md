@@ -1,0 +1,4 @@
+NewsRecs
+========
+
+News recommender system
