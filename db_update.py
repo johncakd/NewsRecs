@@ -15,7 +15,7 @@ def create():
 	conn = sqlite3.connect(news_db)
 	c = conn.cursor()
 	c.execute('''CREATE TABLE if not exists %s
-	(tittle text, body text, date text)''' % (news_table))
+	(title text, body text, date text)''' % (news_table))
 
 def clear():
 	conn = sqlite3.connect('news.db')
