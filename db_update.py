@@ -46,7 +46,7 @@ def fetch_day():
 def main ():
 	create()
 	#clear()
-	#fetch_day()
+	fetch_day()
 
 if __name__ == '__main__':
 	main()
